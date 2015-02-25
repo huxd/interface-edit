@@ -1,0 +1,139 @@
+body {
+  font: 12px/20px "Lucida Grande", Verdana, sans-serif;
+  color: #404040;
+  background: #e4ecef;
+}
+
+input, select,textarea {
+  font-family: inherit;
+  font-size: 12px;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;	
+}
+#formstyle {
+  position: relative;
+  margin: 50px auto;
+  padding: 5px;
+  width: 800px;
+  background: #eef5f7;
+  border: 1px solid #cfd5da;
+  border-bottom-color: #ccd1d6;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+#fieldstyle {
+  padding: 25px;
+  background: white;
+  border-radius: 10px;
+  border: 0;
+}
+#textstyle {
+  overflow: hidden;
+  //margin-bottom: 20px;
+  margin:5px;
+  padding: 5px;
+  background: #eef7f9;
+  border-radius: 2px;
+}
+#textstyle >input {
+  display: block;
+  width: 100%;
+  height: 29px;
+  padding: 0 9px;
+  color: blue;
+  background: white;
+  border: 1px solid #cfdfe3;
+  border-bottom-color: #d2e2e7;
+  border-radius: 2px;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.05), 0 1px rgba(255, 255, 255, 0.2);
+}
+#textstyle >textarea {
+  display: block;
+  resize:none;
+  padding: 9px;
+  color: blue;
+  background: white;
+  border: 1px solid #cfdfe3;
+  border-bottom-color: #d2e2e7;
+  border-radius: 2px;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.05), 0 1px rgba(255, 255, 255, 0.2);
+}
+#textstyle >input:focus {
+  border:1px solid #93c2ec;
+  box-shadow: 0 0 0 8px #e1ecf5;
+}
+#sub {
+  vertical-align: top;
+  padding: 0 14px;
+  height: 29px;
+  font-weight: bold;
+  color: #729fb2;
+  text-shadow: 0 1px rgba(255, 255, 255, 0.5);
+  background: #deeef4;
+  border: 1px solid #bed6e3;
+  border-bottom-color: #accbd9;
+  border-radius: 15px;
+  cursor: pointer;
+  background: -moz-linear-gradient(top, #e6f2f7, #d0e6ee);
+  box-shadow: inset 0 1px rgba(255, 255, 255, 0.2), 0 1px 1px rgba(0, 0, 0, 0.06), 0 0 0 4px #eef7f9;
+}
+#fontstyle {
+  color: #729fb2;
+  font-family:Microsoft YaHei; 
+}
+#eventstyle {
+  font-family:Microsoft YaHei;
+  color:green;
+  //text-shadow: 0px 0px 1px #FF0000;
+  //font-weight:100;
+  font-size:20;
+}
+#divstyle {
+  margin-left: auto;
+  margin-right: auto;
+  width:600px;
+  margin-top:30px;
+  margin-bottom:50px;
+}
+#descrptstyle {
+  color:purple;
+  font-family:Microsoft YaHei; 
+}
+#tipstyle {
+  color:red;
+  font-family:Microsoft YaHei; 
+}
+#tablestyle {
+  border: 1px solid blue;
+  border-radius:5px;
+  box-shadow:0px 0px 10px blue;
+  color:blue;
+  width:600px;
+  text-shadow: 0px 0px 1px blue;
+  margin-left: auto;
+  margin-right: auto;
+}
+td {
+  border: 1px solid gray;
+  border-radius:5px;'
+}
+#td1 {
+  width:85px;
+  word-wrap:break-word;
+}
+#td2 {
+  width:198px;
+  word-wrap:break-word;
+}
+#td3 {
+  width:283px;
+  word-wrap:break-word;
+}
+#formularstyle {
+  width:500px;
+  height:500px;
+  color:purple;
+  border:1px red dotted;
+  float:right;
+}

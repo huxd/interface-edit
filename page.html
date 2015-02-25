@@ -1,0 +1,30 @@
+<html>
+    <head>
+	    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<script src="http://apps.bdimg.com/libs/jquery/2.0.0/jquery.min.js"></script>
+		<link rel="stylesheet" href="page.css">
+		<link rel="stylesheet" href="$cssurl">
+    </head>
+    <body>
+	    $html
+		<div id="formularstyle">
+		    <p style="text-align:center">格式要求</p>
+			<p>前端：</p>
+			<p>1.如果前端需要返回给后台一个数组，比如ids（包含多个id，比如id1和id2），则采用'{"id":["id1","id2"]}'的字符串格式返回;</p>
+			<p>2.前端对于msg信息的响应，当msg为1，alert一个session已过期的提示，并重定向到主页，当msg为2时，alert一个服务器繁忙的提示</p>
+			<p>后台：</p>
+			<p>1.对于每个ajax请求，如果前端有post数据过来，则调用工具函数中ajaxCheck函数来检查请求是否合法</p>
+			<p>比如：<br />
+			$currentPage = I('post.currentpage');<br />
+			if(!ajaxCheck($currentPage)) {<br />
+				die(); <br />
+			}</p>
+			<p>2.对于每个数据库操作，都要调用工具函数中queryCheck函数来判断数据库操作是否成功</p>
+			<p>比如：<br />
+			$allAlbums = M('album')->select(); <br />
+			if(!queryCheck($allAlbums)) { <br />
+				die(); <br />
+			}</p>
+		</div>
+	</body>
+</html>
